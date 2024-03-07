@@ -7,7 +7,7 @@ const postReviews = async (review, rating, placeId)=> {
     const accessToken = JSON.parse(token)
     const id = JSON.parse(userId)
 
-    const endpoint = 'http://192.168.1.19/api/reviews'
+    const endpoint = 'https://ct-be.onrender.com/api/reviews'
 
     const data = {
         "review": review,

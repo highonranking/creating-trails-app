@@ -12,7 +12,7 @@ const fetchHotelById = (id) => {
         setIsLoading(true)
 
         try {
-            const response = await axios.get(`http://192.168.1.19/api/hotels/${id}`);
+            const response = await axios.get(`https://ct-be.onrender.com/api/hotels/${id}`);
 
             setHotel(response.data)
             const newData = response.data.coordinates;

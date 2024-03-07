@@ -11,7 +11,7 @@ const fetchCountry = (id) => {
         setIsLoading(true)
 
         try {
-            const response = await axios.get(`http://192.168.1.19/api/countries/${id}`);
+            const response = await axios.get(`https://ct-be.onrender.com/api/countries/${id}`);
 
             setCountry(response.data)
             setIsLoading(false)

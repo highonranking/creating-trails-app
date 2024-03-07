@@ -22,7 +22,7 @@ const HotelSearch = ({navigation}) => {
   
   const handleSearch = async() =>{
     try {
-      const response = await axios.get(`http://192.168.1.19/api/hotels/search/${searchKey}`)
+      const response = await axios.get(`https://ct-be.onrender.com/api/hotels/search/${searchKey}`)
       setSearchResults(response.data)
     } catch (error) {
       console.log("Failed to get products" , error);

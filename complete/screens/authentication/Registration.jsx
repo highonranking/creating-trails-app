@@ -46,7 +46,7 @@ const Registration = () => {
     setLoader(true);
 
     try {
-      const endpoint = "http://192.168.1.19/api/register";
+      const endpoint = "https://ct-be.onrender.com/api/register";
       const data = values;
 
       const response = await axios.post(endpoint, data);

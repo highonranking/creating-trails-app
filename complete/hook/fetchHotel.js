@@ -12,10 +12,10 @@ const fetchHotels = (places) => {
 
         try {
             if (places === 1) {
-                const response = await axios.get('http://192.168.1.19/api/hotels/byCountry/64c62bfc65af9f8c969a8d04?limit=3');
+                const response = await axios.get('https://ct-be.onrender.com/api/hotels/byCountry/64c62bfc65af9f8c969a8d04?limit=3');
                 setHotels(response.data.hotels)
             } else {
-                const response = await axios.get('http://192.168.1.19/api/hotels/byCountry/64c62bfc65af9f8c969a8d04');
+                const response = await axios.get('https://ct-be.onrender.com/api/hotels/byCountry/64c62bfc65af9f8c969a8d04');
                 setHotels(response.data.hotels)
             }
 

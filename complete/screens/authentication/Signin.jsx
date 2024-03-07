@@ -45,7 +45,7 @@ const Signin = ({ navigation }) => {
     setLoader(true);
 
     try {
-      const endpoint = "http://192.168.1.19/api/login";
+      const endpoint = "https://ct-be.onrender.com/api/login";
       const data = values;
 
       const response = await axios.post(endpoint, data);

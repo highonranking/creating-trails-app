@@ -12,10 +12,10 @@ const fetchRecommendations = (places) => {
 
         try {
             if (places === 1) {
-                const response = await axios.get('http://192.168.1.19/api/places?limit=3');
+                const response = await axios.get('https://ct-be.onrender.com/api/places?limit=3');
                 setRecommendations(response.data.places)
             } else {
-                const response = await axios.get('http://192.168.1.19/api/places');
+                const response = await axios.get('https://ct-be.onrender.com/api/places');
                 setRecommendations(response.data.places)
             }
 

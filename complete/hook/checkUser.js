@@ -37,7 +37,7 @@ const checkUser = () => {
     
             try {
               const response = await axios.get(
-                'http://192.168.1.19/api/users',
+                'https://ct-be.onrender.com/api/users',
                 {
                   headers: {
                     Authorization: `Bearer ${accessToken}`,
