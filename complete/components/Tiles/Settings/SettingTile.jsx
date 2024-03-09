@@ -22,7 +22,7 @@ const SettingTile = ({ title, title1, onPress }) => {
       {title === "Language" ? (
         <View style={reusable.rowWithSpace("flex-start")}>
           <Image
-            source={require("../../../assets/images/USA.png")}
+            source={require("../../../assets/images/IND.png")}
             style={styles.image}
           />
           <WidthSpacer width={5} />

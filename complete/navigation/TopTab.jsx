@@ -142,7 +142,7 @@ const TopTab = ({ navigation }) => {
           <View style={styles.profile}>
             <Image
               source={{
-                uri: "https://d326fntlu7tb1e.cloudfront.net/uploads/c87b6dfb-ee4b-47fa-9c02-6ccca2893a6f-vinci_06.jpg",
+                uri: "https://i.ibb.co/0t7k8jP/360-F-397986008-s-IOJa-Om-RRGg-Vp-TRulj-Fg-QUr-Qz6-IGu3-Ud.jpg",
               }}
               style={styles.image}
             />

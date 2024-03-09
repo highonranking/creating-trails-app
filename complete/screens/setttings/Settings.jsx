@@ -34,11 +34,11 @@ const Settings = ({ navigation }) => {
 
         <HeightSpacer height={3} />
 
-        <SettingTile title={"Country"} title1={"USA"} />
+        <SettingTile title={"Country"} title1={"India"} />
 
         <HeightSpacer height={3} />
 
-        <SettingTile title={"Currency"} title1={"USD"} />
+        <SettingTile title={"Currency"} title1={"INR"} />
 
         <HeightSpacer height={40} />
 

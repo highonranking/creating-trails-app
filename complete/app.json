@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "travel_app",
-    "slug": "travel_app",
+    "name": "Creating Trails",
+    "slug": "creating_trails",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

@@ -28,15 +28,15 @@ const PaymentMethod = ({ navigation }) => {
         <HeightSpacer height={20} />
 
         <Payment
-          title={"Visa Card"}
-          image={require("../../assets/images/Visa.png")}
+          title={"Pay with UPI"}
+          image={require("../../assets/images/UPI.png")}
         />
 
         <HeightSpacer height={20} />
 
         <Payment
-          title={"Mastercard"}
-          image={require("../../assets/images/Mastercard.png")}
+          title={"CRED pay"}
+          image={require("../../assets/images/CRED.jpeg")}
         />
 
         <HeightSpacer height={20} />

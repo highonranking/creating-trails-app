@@ -3,10 +3,10 @@ import React from 'react'
 
 const Chat = () => {
   return (
-    <View>
-      <Text>Chat</Text>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Work Under Progress  🧑🏻‍💻𝌉</Text>
     </View>
   )
 }
 
-export default Chat
+export default Chat;

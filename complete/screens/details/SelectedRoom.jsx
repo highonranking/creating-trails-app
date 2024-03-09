@@ -132,8 +132,8 @@ const SelectedRoom = ({ navigation }) => {
             </View> */}
 
             <Payment 
-            title={"Mastercard"}
-            image={require("../../assets/images/Mastercard.png")}
+            title={"UPI"}
+            image={require("../../assets/images/UPI.png")}
             />
 
             <HeightSpacer height={15} />

@@ -38,5 +38,6 @@ export default Recommendations;
 const styles = StyleSheet.create({
   container: {
     paddingTop: 20,
+
   },
 });

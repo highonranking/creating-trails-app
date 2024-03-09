@@ -28,7 +28,7 @@ const ReusableTile = ({ item, onPress }) => {
             text={item.title}
             family={"medium"}
             size={SIZES.medium}
-            color={COLORS.black}
+            color={COLORS.lightWhite}
           />
           <HeightSpacer height={8} />
 
@@ -36,7 +36,7 @@ const ReusableTile = ({ item, onPress }) => {
             text={item.location}
             family={"medium"}
             size={14}
-            color={COLORS.gray}
+            color={COLORS.lightWhite}
           />
 
           <HeightSpacer height={8} />
@@ -48,7 +48,7 @@ const ReusableTile = ({ item, onPress }) => {
               text={` (${item.review}) `}
               family={"medium"}
               size={14}
-              color={COLORS.gray}
+              color={COLORS.lightWhite}
             />
           </View>
         </View>
@@ -62,7 +62,8 @@ export default ReusableTile;
 const styles = StyleSheet.create({
   container: {
     padding: 10,
-    backgroundColor: COLORS.lightWhite,
+    // backgroundColor: COLORS.lightWhite,
+    backgroundColor: COLORS.red,
     borderRadius: 12,
   },
 });
